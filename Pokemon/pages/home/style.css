@@ -1,0 +1,113 @@
+/* 1. Estilos gerais
+/************************************/
+
+/* 2. Header
+/************************************/
+
+/* 3. Main
+/************************************/
+.title {
+    padding: 16px 0px 16px 0px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.search__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 176px;
+}
+
+.search__inst {
+    border-radius: 4px;
+    padding: 20px 22px 20px 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    width: 406px;
+    box-sizing: border-box;
+}
+
+.search__title {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.type {
+    width: 295px;
+    height: 40px;
+    margin-top: 10px;
+    border: 2px solid #616161;
+    border-radius: 4px;
+}
+
+.search__button {
+    background: #EE6B2F;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    border-style: none;
+}
+
+#pokemons {
+    height: 784px;
+}
+
+.shelf__container {
+    padding-top: 26px;
+    display: flex;
+    gap: 18px;
+}
+
+.shelf__bg {
+    width: 260px;
+    height: 260px;
+    border-radius: 4px
+}
+
+.shelf__desc {
+    padding-left: 15px
+}
+
+.cod__pokemons {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 2px;
+}
+
+.title__pokemons {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+
+.shelf__tag {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.badge {
+    width: 92px;
+    height: 18px;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shelf__img {
+    padding: 10px;
+}
+
+/* 4. Footer
+/************************************/
